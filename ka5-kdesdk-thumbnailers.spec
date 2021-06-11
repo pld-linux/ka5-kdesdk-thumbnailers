@@ -1,15 +1,15 @@
-%define		kdeappsver	21.04.1
+%define		kdeappsver	21.04.2
 %define		kframever	5.56.0
 %define		qtver		5.9.0
 %define		kaname		kdesdk-thumbnailers
 Summary:	kdesdk thumbnailers
 Name:		ka5-%{kaname}
-Version:	21.04.1
+Version:	21.04.2
 Release:	1
 License:	GPL v2+/LGPL v2.1+
 Group:		X11/Libraries
 Source0:	http://download.kde.org/stable/release-service/%{kdeappsver}/src/%{kaname}-%{version}.tar.xz
-# Source0-md5:	629a114c0d7a2c67bdbdce8bdc004f3c
+# Source0-md5:	683038f66fba88e9f3dd2621d85de40c
 URL:		http://www.kde.org/
 BuildRequires:	Qt5Core-devel >= %{qtver}
 BuildRequires:	Qt5Gui-devel >= 5.11.1
